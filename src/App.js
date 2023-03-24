@@ -10,10 +10,10 @@ function App() {
       <Navbar />
       <Carousel />
       <SectionAbout />
-      <footer>
+      <div role="note" id="footer">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
         Coded by <a href="https://github.com/SirotkinaAnna">Anna Sirotkina</a>.
-      </footer>
+      </div>
     </div>
   );
 }

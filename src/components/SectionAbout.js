@@ -1,7 +1,7 @@
 import firstImage from '../images/image-about-dark.jpg';
 import secondImage from '../images/image-about-light.jpg'
 function SectionAbout() {
-    return <div className='container-fluid m-0 p-0' id="about" role='contentinfo'><div className="row about-section d-flex flex-column flex-md-row m-0 p-0">
+    return <div className='container-fluid m-0 p-0' id="about"><div className="row about-section d-flex flex-column flex-md-row m-0 p-0">
         <div className="col m-0 p-0">
             <img src={firstImage} alt="" className='d-block h-100 w-100' />
         </div>

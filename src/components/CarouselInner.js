@@ -7,10 +7,10 @@ function CarouselInner({ myClass, children }) {
         <div className='col-md-7 m-0 p-0 position-relative' id={myClass}>
 
             <div className='d-block d-md-none position-absolute bottom-0 end-0'>
-                <button class="btn btn-dark prevNext rounded-0" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <button class="btn btn-dark prevNext rounded-0" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" aria-label="previous">
                     <AiOutlineLeft />
                 </button>
-                <button class="btn btn-dark prevNext rounded-0" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <button class="btn btn-dark prevNext rounded-0" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" aria-label="next">
                     <AiOutlineRight />
                 </button>
             </div>
@@ -19,13 +19,13 @@ function CarouselInner({ myClass, children }) {
         <div className='col-md-5 myRow divTwo d-flex flex-column m-0 p-0'>
             <div className="mx-auto mb-5 mb-md-0 mt-md-5 innerText">
                 {children}
-                <button className="btn btn-outline-light m-0 p-0 myButton border-0">SHOP NOW <HiArrowLongRight /></button>
+                <button className="btn btn-outline-light m-0 p-0 myButton border-0" aria-label="shop now">SHOP NOW <HiArrowLongRight /></button>
             </div>
             <div className='d-none d-md-block mt-auto w-100'>
-                <button class="btn btn-dark prevNext rounded-0" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <button class="btn btn-dark prevNext rounded-0" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" aria-label="previous">
                     <AiOutlineLeft />
                 </button>
-                <button class="btn btn-dark prevNext rounded-0" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <button class="btn btn-dark prevNext rounded-0" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" aria-label="next">
                     <AiOutlineRight />
                 </button></div>
         </div></div>

@@ -14,7 +14,7 @@ function Navbar() {
                 <div className="row d-md-none w-100 m-0 align-items-center">
                     <div className="col">
 
-                        <button onClick={handleShow} className="my-2 btn bg-none text-light fs-3 px-4 me-3">
+                        <button onClick={handleShow} className="my-2 btn bg-none text-light fs-3 px-4 me-3" aria-label="offcanvas show">
                             <AiOutlineMenu />
                         </button>
                     </div>
@@ -38,7 +38,7 @@ function Navbar() {
                     <Offcanvas.Body >
                         <div className="row w-100 align-items-center h-100">
                             <div className="col-3">
-                                <button className="btn  offButton" onClick={handleClose}><AiOutlineClose /></button></div>
+                                <button aria-label="close" className="btn  offButton" onClick={handleClose}><AiOutlineClose /></button></div>
                             <div className="col d-flex justify-content-end">
                                 <a href="#about" className="offcanvas-link" onClick={handleClose}>home</a>
                                 <a href="#about" className="offcanvas-link" onClick={handleClose}>shop</a>
